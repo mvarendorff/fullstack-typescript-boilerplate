@@ -16,7 +16,6 @@ COPY packages/ui/package.json ./packages/ui/
 COPY packages/web/package.json ./packages/web/
 
 # Install dependencies for the workspace
-RUN yarn plugin import workspace-tools
 WORKDIR /app/packages/web
 RUN yarn workspaces focus
 

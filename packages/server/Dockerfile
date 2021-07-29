@@ -14,8 +14,6 @@ COPY packages/common/package.json ./packages/common/
 COPY packages/eslint-config/package.json ./packages/eslint-config/
 COPY packages/server/package.json ./packages/server/
 
-# Install dependencies for the workspace
-RUN yarn plugin import workspace-tools
 WORKDIR /app/packages/server
 RUN yarn workspaces focus
 

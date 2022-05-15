@@ -1,3 +1,5 @@
+*This project is archived because I don't have time to keep it up to date anymore. It was created originally as a starting point for several projects I had in mind but I barely even find the time to work on the first of them and backporting changes to this repository just hinders my progress.*
+
 # Fullstack TypeScript Boilerplate
 
 This project provides a monorepo setup for a Fullstack TypeScript project and comes with the following:
